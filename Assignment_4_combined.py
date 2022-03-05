@@ -1,4 +1,4 @@
-Question 1 
+# Question 1 
 def Towers_Of_Hanoi(numdisks, frm_disc, to_disc, aux_disc):
     if numdisks == 1:
         print("Move disk [1] from rod [",
@@ -11,7 +11,7 @@ def Towers_Of_Hanoi(numdisks, frm_disc, to_disc, aux_disc):
 numdisks = 4
 Towers_Of_Hanoi(numdisks, 'A', 'C', 'B') 
 
-C:\Users\Aakash Arora\OneDrive - pec.edu.in\Desktop\Assignments PEC\PYTHON\Assignment_4> python -u "c:\Users\Aakash Arora\OneDrive - pec.edu.in\Desktop\Assignments PEC\PYTHON\Assignment_4\Assignment_4_que_1_.py"
+# Output 1
 Move disk [1] from rod [ A ] to rod { B }
 Move disk [2] from rod [ A ] to rod { C }
 Move disk [1] from rod [ B ] to rod { C }
@@ -30,7 +30,7 @@ Move disk [1] from rod [ B ] to rod { C }
 
 
 
-Question 2
+#Question 2
 def pascal_triangle(n):
    trow = [1]
    y = [0]
@@ -40,10 +40,13 @@ def pascal_triangle(n):
    return n>=1
 pascal_triangle(6) 
 
-C:\Users\Aakash Arora\OneDrive - pec.edu.in\Desktop\Assignments PEC\PYTHON\Assignment_4> python -u "c:\Users\Aakash Arora\OneDrive - pec.edu.in\Desktop\Assignments PEC\PYTHON\Assignment_4\tempCodeRunnerFile.py"
+# Output 2 
 [1]
 [1, 1]
 [1, 2, 1]
 [1, 3, 3, 1]
 [1, 4, 6, 4, 1]
 [1, 5, 10, 10, 5, 1]
+
+
+
